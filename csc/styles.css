@@ -1,5 +1,20 @@
+body {
+font-family: 'Roboto' , sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+}
 
- 
+h1 { 
+color: #ffffff;
+font-family: 'Robot';
+font-weight: 700;
+size: 56px;
+line-height: 60px;
+letter-spacing: 2%;
+align: "centre" ;
+}
 
 
 
