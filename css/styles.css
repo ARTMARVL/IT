@@ -46,12 +46,12 @@ letter-spacing: 0.02em;
 }
 
 
-.page-nav .link:hover {
+.link:hover {
 color: #404BBF;
 }
     
 
-.page-nav .link:focus{ 
+.link:focus { 
 color: #404BBF;
 }
  
@@ -65,11 +65,11 @@ line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-.link-address .link:hover {
+.link-address:hover {
 color: #404bbf;
 }
 
-.link-address .link:focus {
+.link-address:focus {
 color: #404bbf;
 }
 /* header */
