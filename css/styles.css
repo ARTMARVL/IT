@@ -74,6 +74,13 @@ color: #404bbf;
 
 
 /* section 1 */
+
+
+.head{
+background-color: #2e2f42;
+}
+
+
 .main-title {
 color: #ffffff;
 background-color: #2e2f42;
@@ -99,9 +106,14 @@ cursor: pointer;
 
 
 button.hover{
-background: #404BBF;
+background-color: #404BBF;
 cursor: pointer;
 }
+
+.button.focus{
+background-color: #404BBF;
+}
+
 /* section 1 */
 
 
