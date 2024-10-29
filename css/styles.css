@@ -110,12 +110,12 @@ cursor: pointer;
 }
 
 
-button.hover{
+button:hover{
 background-color: #404BBF;
 cursor: pointer;
 }
 
-.button.focus{
+.button:focus{
 background-color: #404BBF;
 }
 
@@ -123,6 +123,18 @@ background-color: #404BBF;
 
 
 /* section 2 */
+
+.headertwo {
+color: #2E2F42;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 1,11;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+
 .title { 
 color: #2e2f42;
 font-weight: 500;
@@ -164,7 +176,7 @@ background-color: #FFFFFF;
 }
 
 
-.title-mini{
+.title-mini {
 color: #2e2f42;
 font-weight: 500;
 font-size: 20px;
@@ -194,6 +206,15 @@ letter-spacing: 0.02em;
 
 /* section 4 */
 
+.headertwo {
+color: #2E2F42;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 1,11;
+letter-spacing: 0.02em;
+text-align: center;
+}
 
 .title-portfolio {
 color: #434455;
