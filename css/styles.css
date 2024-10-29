@@ -25,11 +25,7 @@ letter-spacing: 2%;
     color: #2e2f42;
 }
 
-.link {
-color: #2e2f42;
-line-height: 1.5;
-letter-spacing: 0.02em;
- }
+
 
 
 .page-nav {
@@ -41,14 +37,23 @@ line-height: 1.33;
 letter-spacing: 0.04em;
 text-decoration: underline;
 }
-    
+
+
+.link {
+color: #2e2f42;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
 .page-nav .link:hover {
 color: #404BBF;
 }
     
+
 .page-nav .link:focus{ 
 color: #404BBF;
- }
+}
  
 
 .link-address { 
@@ -144,21 +149,29 @@ letter-spacing: 0.02em;
 background-color: #F4F4FD;
 } 
 
+.title-team {
+color: #2e2f42;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+}
+
 
 .list {
-
-    background-color: #FFFFFF;  
+background-color: #FFFFFF;  
 }
 
 
-.title-team {
-    color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
+.title-mini{
+color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
+
 
 
 
@@ -168,6 +181,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+
 
 /* section 3 */
 
