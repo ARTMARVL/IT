@@ -9,7 +9,6 @@ letter-spacing: 2%;
 }
 
 
-
 /* header */
 .logo {
     color: #4d5ae5;
@@ -24,6 +23,12 @@ letter-spacing: 2%;
 .span {
     color: #2e2f42;
 }
+
+.link {
+color: #2e2f42;
+line-height: 1.5;
+letter-spacing: 0.02em;
+ }
 
 
 .page-nav {
