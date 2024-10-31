@@ -12,14 +12,6 @@ letter-spacing: 2%;
 
 /* header */
 
-.mainheader {
-border-bottom: 1px solid #e7e9fc;
-}
-
-
-.conteiner {
-display: flex;
-}
 
 
 
@@ -73,7 +65,7 @@ color: #404BBF;
 }
  
 
-.link-gmail-number { 
+.link-address { 
 color: #434455 ;
 font-style: normal;
 font-weight: 500;
@@ -82,13 +74,33 @@ line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-.link-gmail-number:hover {
+.link-address:hover {
 color: #404bbf;
 }
 
-.link-gmail-number:focus {
+.link-address:focus {
 color: #404bbf;
 }
+
+.link-gmail-number {
+color: #434455;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+.link-gmail-number:hover {
+    color: #404bbf;
+}
+
+.link-gmail-number:focus {
+    color: #404bbf;
+}
+
+
 /* header */
 
 
@@ -278,31 +290,3 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /* footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
