@@ -11,6 +11,22 @@ letter-spacing: 2%;
 
 
 /* header */
+
+.mainheader {
+border-bottom: 1px solid #e7e9fc;
+}
+
+
+.conteiner {
+display: flex;
+}
+
+
+
+
+
+
+
 .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -29,6 +45,7 @@ letter-spacing: 2%;
 
 
 .page-nav {
+    
 color: #434455;
 font-family: 'Roboto' , sans-serif;
 font-weight: 500;
@@ -56,7 +73,7 @@ color: #404BBF;
 }
  
 
-.link-address { 
+.link-gmail-number { 
 color: #434455 ;
 font-style: normal;
 font-weight: 500;
@@ -65,11 +82,11 @@ line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-.link-address:hover {
+.link-gmail-number:hover {
 color: #404bbf;
 }
 
-.link-address:focus {
+.link-gmail-number:focus {
 color: #404bbf;
 }
 /* header */
@@ -95,6 +112,7 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
+
 }
     
 
@@ -176,6 +194,7 @@ background-color: #FFFFFF;
 }
 
 
+
 .title-mini {
 color: #2e2f42;
 font-weight: 500;
@@ -199,13 +218,7 @@ letter-spacing: 0.02em;
 /* section 3 */
 
 
-
-
-
-
-
 /* section 4 */
-
 .headertwo {
 color: #2E2F42;
 font-family: 'Roboto';
@@ -233,10 +246,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-
-
-
-
 /* section 4 */
 
 
@@ -258,8 +267,6 @@ background-color: #2e2f42;
 .span {
     color: #f4f4fd;
 }
-
-
 
 .text-footer {
 color: #F4F4FD;
