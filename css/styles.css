@@ -221,7 +221,14 @@ background-color: #404BBF;
 
 /* section 2 */
 
-.headertwo {
+.section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+
+
+.visually-hidden {
 color: #2E2F42;
 font-family: 'Roboto';
 font-weight: 700;
@@ -231,6 +238,17 @@ letter-spacing: 0.02em;
 text-align: center;
 }
 
+.secondsection{
+display: flex;
+gap: 24px;
+}
+
+.features{
+width: calc((100% - 72px) / 4);
+}
+
+
+
 
 .title { 
 color: #2e2f42;
@@ -238,6 +256,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 
