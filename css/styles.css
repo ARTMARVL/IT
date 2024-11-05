@@ -346,6 +346,8 @@ margin-bottom: 72px;
 
 .portfolio{
 display: flex;
+flex-wrap: wrap;
+row-gap: 48px;
 gap: 24px;
 }
 
@@ -355,8 +357,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .app{
-padding-top: 32px;
-padding-bottom: 32px;
+padding: 32px 16px;
+margin-bottom: 8px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
 
 .title-portfolio {
