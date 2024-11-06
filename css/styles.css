@@ -141,7 +141,7 @@ color: #404bbf;
 color: #404bbf;
 }
 
-.link-gmail-number {
+.link-gmail {
 color: #434455;
 font-family: 'Roboto';
 font-size: 16px;
@@ -153,13 +153,36 @@ display: flex;
 gap: 40px;
 }
 
-.link-gmail-number:hover {
+.link-gmail:hover {
     color: #404bbf;
 }
 
-.link-gmail-number:focus {
+.link-gmail:focus {
     color: #404bbf;
 }
+
+
+.link-number {
+color: #434455;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+display: flex;
+gap: 40px;
+}
+
+.link-number:hover {
+    color: #404bbf;
+}
+
+.link-number:focus {
+    color: #404bbf;
+}
+
+
 
 
 /* header */
