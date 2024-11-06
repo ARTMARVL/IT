@@ -57,6 +57,7 @@ font-size: 16px;
 line-height: 1.33;
 letter-spacing: 0.04em;
 text-decoration: underline;
+display: flex;
 gap: 40px;
 }
 
@@ -140,6 +141,12 @@ color: #404bbf;
 .link-address:focus {
 color: #404bbf;
 }
+
+.gmail-number {
+display: flex;
+gap: 40px;
+}
+
 
 .link-gmail {
 color: #434455;
@@ -420,7 +427,7 @@ padding-bottom: 100px;
 }
 
 .logo {
-   
+   display: inline-block;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -428,7 +435,6 @@ padding-bottom: 100px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
