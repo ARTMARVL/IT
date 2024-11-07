@@ -226,6 +226,7 @@ gap: 40px;
 
 
 
+
 /* section 1 */
 
 
@@ -236,16 +237,26 @@ padding-bottom: 188px;
 }
 
 
+
+
 .main-title {
 color: #ffffff;
 background-color: #2e2f42;
+background-image: url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AWQmnij1mh8lYqrSc-r~Fh4GfzC3EsVcMcDDz-cyXqFbNlkXR1jMPCfkbTr~nIGIJ1QZwDAphyd4I457HuAHxc6C4fOTQwf298xk5WCIOBMDqe3ESP8usOrQNcgA8RyHpbg58GLEjiazCPEmwQH6S~MKaiMjuPFANZOE6A4XHqO9aPkfh4UEcV5jbHc4cjtEgW2OeUwdUCN~YHy9ZYNfDzYWffK31Vvf5kUlOPaDFuQp1D~NUbrkg4yST8rsYbZRcpM9LG6Va2XnEGMOtvd9KdLnb0AiD8BQMXSDZ6rYDVxrnU-6ZDZCCRs7oKudneg60p9I-KZYloiw~32CIJQx-w__) ;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
 font-family: 'Roboto' , sans-serif;
 font-weight: Bold;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-max-width: 496px;
+top: 72px;
+width: 1440px;
+height: 600px;
+gap: 0px;
+opacity: 0px;
 }
     
 
@@ -390,6 +401,14 @@ text-align: center;
 
 }
 
+.iconssvg {
+display: flex;
+width: 40px;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+
+}
 
 
 /* section 3 */
@@ -419,6 +438,11 @@ row-gap: 48px;
 .minibox{
 width: calc((100% - 48px)/3);  
 border-radius: 0px 0px 4px 4px;
+}
+
+.imgportfolio:hover {
+    background: #4D5AE5;
+
 }
 
 
@@ -488,8 +512,26 @@ max-width: 264px;
 }
 
 
-
+.sociallogo{ 
+    color: #ffffff; 
+    font-family: Roboto; 
+    font-size: 16px; 
+    font-weight: 500; 
+    line-height: 24px; 
+    letter-spacing: 0.02em; 
+    text-align: left; 
+    margin-left: 96px; 
+    margin-bottom: 24px; 
+    gap: 0px; 
+    opacity: 0px; 
+    }
 
 
 
 /* footer */
+
+
+
+
+
+
