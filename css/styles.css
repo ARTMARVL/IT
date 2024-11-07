@@ -30,6 +30,20 @@ ul {
 .mainheader {
 border-bottom: 1px solid #e7e9fc; 
 }
+ 
+.mainheader .container {
+    display: flex;
+    align-items: center;
+    }
+
+
+
+.thehead{
+display: flex;
+margin: 0 auto;
+width: 1158px;
+padding: 0 15px 0 15px;
+}
 
 .container{
 margin: 0 auto;
