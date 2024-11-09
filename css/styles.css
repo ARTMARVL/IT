@@ -29,9 +29,8 @@ ul {
 
 .mainheader {
 border-bottom: 1px solid #e7e9fc;
-box-shadow: 0px 1px 6px 0px #2E2F4214;
-box-shadow: 0px 1px 1px 0px #2E2F4229;
-box-shadow: 0px 2px 1px 0px #2E2F4214;
+box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 
 }
  
@@ -58,12 +57,15 @@ padding: 0 15px 0 15px;
 .head-title {
     display: flex;
     align-items: center;
+
+
+    
 }
 
 
 
 .logo {
-    color: #4d5ae5;
+    color: #404bbf;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -71,7 +73,22 @@ padding: 0 15px 0 15px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    position:relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.logo::after {
+    background-color: #404bbf;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+}
+
+
 
 .studio-color {
 color: #2e2f42;
@@ -193,6 +210,7 @@ letter-spacing: 0.02em;
 text-align: left;
 display: flex;
 gap: 40px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-gmail:hover {
@@ -214,6 +232,7 @@ letter-spacing: 0.02em;
 text-align: left;
 display: flex;
 gap: 40px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-number:hover {
@@ -533,6 +552,20 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
+.container {
+display: flex;
+align-items: baseline;
+}
+
+.logofooter{
+    margin-right: 120px
+}
+
+
+
+
+
+/* div= logofooter */
 .logo {
   
     color: #4d5ae5;
@@ -562,29 +595,54 @@ letter-spacing: 0.02em;
 max-width: 264px;
 }
 
-.logofooter{
-width: 208px;
-height: 80px;
-top: 3256px;
-left: 540px;
-gap: 0px;
-opacity: 0px;
 
-}
+/* div=footericons */
+
+
+
 
 .sociallogo{ 
     color: #ffffff; 
     font-family: Roboto; 
     font-size: 16px; 
     font-weight: 500; 
-    line-height: 24px; 
+    line-height: 1.5; 
     letter-spacing: 0.02em; 
     text-align: left; 
     margin-left: 96px; 
-    margin-bottom: 24px; 
+    margin-bottom: 16px;
     gap: 0px; 
     opacity: 0px; 
     }
+
+.li-icons{
+    display: flex;
+    gap: 16px;
+}
+
+.iconssvg {
+    width: 40px;
+    height: 40px;
+}
+
+.link-icons-footer {
+    display: flex;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-icons-footer:hover{
+    background-color: #31d0aa;
+}
+
+
+.link-icons-footer:focus{
+    background-color: #31d0aa;
+}
 
 
 
