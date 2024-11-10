@@ -518,17 +518,44 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .minibox:hover{
     transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
+
 
 .imgportfolio:hover {
     background: #4D5AE5;
 
 }
 
-.img-hover{
-    position: relative;
-    overflow: hidden;
+
+
+
+
+.bank-app{
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .stylish{
 transform:translateY(100%); 
