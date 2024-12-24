@@ -221,6 +221,9 @@ gap: 40px;
 
 
 .head{
+    /* убратль падинг */
+    padding: 188px 0;
+    /* убратль падинг */
 background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -241,7 +244,9 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 top: 72px;
-max-width: 1440px;
+/* убрать 496 на 1440*/
+max-width: 496px;
+/* убрать 496 на 1440 */
 height: 600px;
 gap: 0px;
 opacity: 0px;
@@ -296,9 +301,6 @@ padding-bottom: 120px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
-
-
-
 
 
 .visually-hidden {
