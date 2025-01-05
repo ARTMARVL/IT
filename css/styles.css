@@ -220,7 +220,7 @@ body {
     } 
 
 
-    .logo-number{ 
+    .logo-number-gmail{ 
         color: rgba(67, 68, 85, 1);
         font-family: Roboto;
         font-size: 16px;
@@ -230,23 +230,12 @@ body {
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
-        
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
 
 
 
-.logo-gmail{
-color: rgba(67, 68, 85, 1);
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 
- }
 
 
 
@@ -500,14 +489,12 @@ text-decoration-skip-ink: none;
         justify-content: center;
     
     } 
-    .iconssvg:hover {
+    .iconssvg :hover{
         background-color: #404bbf;
     }
-
-    .iconssvg:focus {    
+.iconssvg :focus{
     background-color: #404bbf;
-    }
-
+}
     
     /* section 3 */ 
      
@@ -577,8 +564,11 @@ text-decoration-skip-ink: none;
             padding: 40px 32px;
             height: 100%;
             width: 100%;
-            transform: translateY(100%);
+            transform: translateY(0%);
             transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .stylish :hover{
+            transform: translateY(0%);
         }
         
         .title-portfolio {
