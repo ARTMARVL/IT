@@ -290,70 +290,67 @@ body {
     /* section 1 */ 
      
      
-    /* section 2 */ 
+    /* !!!!!!!section!!!!!! 2 */ 
      
-    .section{ 
-    padding-top: 120px; 
-    padding-bottom: 120px; 
-    } 
-     
-    .iconssectiontwo{ 
-        background-color: #f4f4fd; 
-        display: flex; 
-        align-items: center;
-    justify-content: center; 
-        height: 112px; 
-        border-radius: 4px; 
-        border: 1px solid #8e8f99; 
-        margin-bottom: 8px; 
-    } 
-     
-     
-    .visually-hidden { 
-        position: absolute; 
-        width: 1px; 
-        height: 1px; 
-        margin: -1px; 
-        border: 0; 
-        padding: 0; 
-        white-space: nowrap; 
-        clip-path: inset(100%); 
-        clip: rect(0 0 0 0); 
-        overflow: hidden; 
-    } 
-     
-    .secondsection{ 
-    display: flex; 
-    gap: 24px; 
-    } 
-     
-    .features{ 
-     flex-basis: calc((100% - 3 * 24px) / 4) 
-    } 
-     
-     
-     
-     
-    .title {  
-    color: #2e2f42; 
-    font-weight: 500; 
-    font-size: 20px; 
-    line-height: 1.2; 
-    letter-spacing: 0.02em; 
-    margin-bottom: 8px; 
-    } 
-     
-     
-    .text { 
-    color: #434455; 
-    font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.02em; 
-
-
-
-} 
-
+    .section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
+        
+        
+        
+        
+        
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+        
+        .secondsection{
+        display: flex;
+        gap: 24px;
+        }
+        
+        .features{
+         flex-basis: calc((100% - 3 * 24px) / 4)
+        }
+        
+        
+        .iconssectiontwo{
+            background-color: #f4f4fd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            border-radius: 4px;
+            border: 1px solid #8e8f99;
+            margin-bottom: 8px;
+        }
+        
+        .title { 
+        color: #2e2f42;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        }
+        
+        
+        .text {
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        }
 
 
 
