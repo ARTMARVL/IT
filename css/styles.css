@@ -391,7 +391,7 @@ row-gap: 48px;
     transform: translateY(0%);
 }
 .port-list{
-    calc ((100% - 48px)/3)
+    width: calc ((100% - 48px)/3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
@@ -522,7 +522,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 padding-left: 38px;
 outline: transparent;
-border: stroke 250ms; cubic-bezier(0.4, 0, 0.2, 1);
+border: stroke 250ms; 
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-user-input:focus{
@@ -613,8 +613,7 @@ color: #8e8f99;
 .blue{
  color: #4d5ae5;  
 }
-.castom-checkbox-icon {
-}
+
 .form-user-checkbox a {
     text-decoration: underline;
 }
@@ -659,8 +658,7 @@ color: #fff;
 display: flex; 
 gap: 24px;  
 }
-.footer-form-email {
-}
+
 .footer-form-input {
 border: 1px solid #fff;
 border-radius: 4px;
