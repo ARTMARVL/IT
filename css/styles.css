@@ -126,16 +126,17 @@ body {
     position: relative;
     } 
          
-    .link-studio ::after{
-        background-color: #404bbf;
+    .link-studio::after {
         content: '';
         width: 100%;
         position: absolute;
         left: 0;
         bottom: -1px;
         height: 4px;
+        background-color: #404bbf;
         border-radius: 2px;
     }
+    
          
     .link-studio:hover { 
     color: #404BBF; 
@@ -217,9 +218,38 @@ body {
     display: flex; 
     gap: 40px; 
     } 
-     
-     
-     
+
+
+    .logo-number{ 
+        color: rgba(67, 68, 85, 1);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+     }
+
+
+
+.logo-gmail{
+color: rgba(67, 68, 85, 1);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+ }
+
+
+
     /* header */ 
      
      
@@ -232,12 +262,13 @@ body {
      
      
     .head{ 
-    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg); 
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
     max-width: 1440px; 
-    height: 600px; 
+    padding: 180px;
+    padding-bottom: 180px;
     } 
      
      
@@ -252,10 +283,11 @@ body {
     letter-spacing: 0.02em; 
     text-align: center; 
     top: 72px; 
-    max-width: 1440px; 
-    height: 600px; 
+    max-width: 496px; 
     gap: 0px; 
     opacity: 0px; 
+    margin: 0 auto;
+    
     } 
          
      
@@ -273,7 +305,8 @@ body {
     height: 56px; 
     border: none; 
     border-radius: 4px; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    margin: 0 auto;
     } 
      
      
@@ -522,17 +555,31 @@ body {
         }
         
         .app-portfolio{
+        position: relative;
+        overflow: hidden;
+        }
+        
+        
+       .stylish-div{
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
         }
         
-        
-       
-        
-        
-        
-        
+        .stylish{
+            color:#f4f4fd;
+            background-color: #4d5ae5;
+            position: absolute;  
+            top: 0;
+            font-size: 16px;
+            line-height: 1.5; 
+            letter-spacing: 0.02em;
+            padding: 40px 32px;
+            height: 100%;
+            width: 100%;
+            transform: translateY(100%);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
         
         .title-portfolio {
         color: #2e2f42;
@@ -573,10 +620,14 @@ body {
     } 
      
     .container { 
-        display: flex; 
     align-items: baseline; 
     } 
      
+
+.footer-container{
+    display: flex;
+}
+
     .logofooter{ 
         margin-right: 120px 
     } 
